@@ -1,2 +1,7 @@
-/.notes
-/target
+/target/
+/.notes/
+/.vscode/
+/.settings/
+/.project
+/.classpath
+
