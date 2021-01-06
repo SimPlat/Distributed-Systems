@@ -1,18 +1,14 @@
 # Distributed-Systems
 Tasks on Java RMI for the course Distributed Systems at department of IEE, IHU. 
 
-Author: Σίμος Πλατιώτης 
-AM: 154583
-Project Repository: https://github.com/SimPlat/Distributed-Systems
+### Execution Steps
 
-# Execution Steps
-
-1. cd project's root directory(DSYS_Σίμος_Πλατιώτης)
+1. `cd projects_root_directory`
 2. `mvn package`
-3. Launch First Assignment
-   Terminal A. `java -cp target/dsys-1.0-SNAPSHOT.jar firstAssignment.Server`
-   Terminal B. `java -cp target/dsys-1.0-SNAPSHOT.jar firstAssignment.Client`
-4. Launch Second Assignment
-   Terminal A. `java -cp target/dsys-1.0-SNAPSHOT.jar secondAssignment.Server`
+3. Launch First Assignment  
+   Terminal A. `java -cp target/dsys-1.0-SNAPSHOT.jar firstAssignment.Server`  
+   Terminal B. `java -cp target/dsys-1.0-SNAPSHOT.jar firstAssignment.Client`  
+4. Launch Second Assignment  
+   Terminal A. `java -cp target/dsys-1.0-SNAPSHOT.jar secondAssignment.Server`  
    Terminal B. `java -cp target/dsys-1.0-SNAPSHOT.jar secondAssignment.Client`
 5. Second Assignment output files are located inside `src/main/resources/secondAssignment`
