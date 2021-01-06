@@ -1,9 +1,9 @@
 package firstAssignment;
 
-import java.rmi.registry.Registry;
 import java.rmi.registry.LocateRegistry;
-import java.rmi.RemoteException;
+import java.rmi.registry.Registry;
 import java.rmi.NotBoundException;
+import java.rmi.RemoteException;
 
 public class Client implements RMIInterface {
 	
@@ -16,8 +16,8 @@ public class Client implements RMIInterface {
 
 	private void connect(){
 		try{
-			Registry reg = LocateRegistry.getRegistry("192.168.1.2", 1099);
-			lookUp = (RMIInterface) reg.lookup("First Assignment");
+			Registry registry = LocateRegistry.getRegistry("192.168.1.2", 1099);
+			lookUp = (RMIInterface) registry.lookup("First Assignment");
 			System.out.println("Connected to 192.168.1.2:1099");
 		}catch (RemoteException | NotBoundException re) {re.printStackTrace();}
 	}
