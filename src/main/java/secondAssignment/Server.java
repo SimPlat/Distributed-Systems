@@ -12,6 +12,8 @@ import java.io.FileWriter;
 import java.io.File;
 import java.net.URL;
 
+import secondAssignment.RMIInterface;
+
 public class Server extends UnicastRemoteObject implements RMIInterface {
 
 	private int fileCounter;

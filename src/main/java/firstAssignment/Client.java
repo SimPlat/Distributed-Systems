@@ -5,6 +5,8 @@ import java.rmi.registry.Registry;
 import java.rmi.NotBoundException;
 import java.rmi.RemoteException;
 
+import firstAssignment.RMIInterface;
+
 public class Client implements RMIInterface {
 	
 	private RMIInterface lookUp;

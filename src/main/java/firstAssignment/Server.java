@@ -5,6 +5,7 @@ import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.rmi.RemoteException;
 
+import firstAssignment.RMIInterface;
 
 
 public class Server extends UnicastRemoteObject implements RMIInterface {

@@ -10,6 +10,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.File;
 
+import secondAssignment.RMIInterface;
+
 public class Client implements RMIInterface {
 
 	private RMIInterface lookUp;
