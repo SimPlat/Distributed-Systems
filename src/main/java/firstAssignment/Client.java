@@ -18,9 +18,9 @@ public class Client implements RMIInterface {
 
 	private void connect(){
 		try{
-			Registry registry = LocateRegistry.getRegistry("192.168.1.2", 1099);
+			Registry registry = LocateRegistry.getRegistry("localhost", 1099);
 			lookUp = (RMIInterface) registry.lookup("First Assignment");
-			System.out.println("Connected to 192.168.1.2:1099");
+			System.out.println("Connected to localhost:1099");
 		}catch (RemoteException | NotBoundException re) {re.printStackTrace();}
 	}
 
