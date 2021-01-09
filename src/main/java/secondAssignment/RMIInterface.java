@@ -6,7 +6,7 @@ import java.rmi.RemoteException;
 public interface RMIInterface extends Remote{
    
    /**
-	*  Sends 2 matrices and specify the required operation to the server.
+	*  Request 1 URL to be downloaded on the server and the server will return its location(ex. 'Doc#: File#, Distance_from_start_in_bytes).
 	*  @param targetURL String
 	*  @return documentLocation String
 	*/
